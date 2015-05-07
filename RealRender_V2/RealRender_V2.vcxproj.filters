@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{74d2a990-1d94-4662-aeae-d8040986d332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{458ce490-c7ea-4904-9d41-9495d3cd89b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SamplerManager">
+      <UniqueIdentifier>{2a9f0c74-aead-4958-b5fb-57ad820d4069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{0ac41f2e-f387-4cda-9a61-bdb1cb79ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\CodeFx">
+      <UniqueIdentifier>{227ec804-ed47-4e6d-a891-7a597c6f6da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite">
+      <UniqueIdentifier>{88d64909-c16c-49e7-babc-211211d4497c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Component">
+      <UniqueIdentifier>{76a1b33e-8d28-4b97-b45f-3bd04c4f8c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Buffer">
+      <UniqueIdentifier>{b218d798-dc02-47ef-8a0c-e4c4cb45c04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Component\ComponentBuffer">
+      <UniqueIdentifier>{0a391acd-bb36-4640-9db9-84758e580ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Component\ComponentBuffer\Render">
+      <UniqueIdentifier>{b3da518e-7cd5-42c0-8452-a0fd6c14cd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Component\ComponentBuffer\Shape">
+      <UniqueIdentifier>{6be351b8-f22d-4f07-bf3e-f61cdc6c0265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Info">
+      <UniqueIdentifier>{043d7f0d-2ef3-49d7-a091-393ad65580ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RealRender_V2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceDx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="STL_TemplateUtil.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferType.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerManager.h">
+      <Filter>SamplerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderStage.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPart.h">
+      <Filter>Composite\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentShape.h">
+      <Filter>Composite\Component\ComponentBuffer\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeObject.h">
+      <Filter>Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentRender.h">
+      <Filter>Composite\Component\ComponentBuffer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Composite\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Composite\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRender.h">
+      <Filter>Composite\Component\ComponentBuffer\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RealRender_V2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceDx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplerManager.cpp">
+      <Filter>SamplerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentPart.cpp">
+      <Filter>Composite\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentShape.cpp">
+      <Filter>Composite\Component\ComponentBuffer\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeObject.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentRender.cpp">
+      <Filter>Composite\Component\ComponentBuffer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Composite\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfo.cpp">
+      <Filter>Composite\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderStage.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRender.cpp">
+      <Filter>Composite\Component\ComponentBuffer\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealRender_V2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RealRender_V2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="LightTexture.fx">
+      <Filter>Shader\CodeFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Color.fx">
+      <Filter>Shader\CodeFx</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
